@@ -35,6 +35,7 @@ def hello():
     cur.close()
     conn.close()
 
+
     # Stampa i dati degli studenti (per debug)
     for studente in studenti:
         print(f"Cognome: {studente['cognome']}, Nome: {studente['nome']}, Data di Nascita: {studente['datan']}, Matricola: {studente['matricola']}")
